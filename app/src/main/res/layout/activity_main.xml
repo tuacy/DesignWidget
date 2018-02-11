@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tuacy.designwidget.module.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/AppTheme.Toolbar"
+        android:id="@+id/tool_bar"
+        app:title="@string/app_name"
+        app:navigationIcon="@drawable/ic_arrow_back_white_24dp"/>
+
+    <Button
+        android:id="@+id/button_app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="AppBarLayout"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar"/>
+
+    <Button
+        android:id="@+id/button_collapsing_tool_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="CollapsingToolbarLayout"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/button_app_bar_layout"/>
+
+    <Button
+        android:id="@+id/button_coordinator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="CoordinatorLayout"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/button_collapsing_tool_bar_layout"/>
+
+    <Button
+        android:id="@+id/button_floating_action_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="FloatingActionButton"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/button_coordinator_layout"/>
+
+    <Button
+        android:id="@+id/button_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="NavigationView"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/button_floating_action_button"/>
+    <Button
+        android:id="@+id/button_snack_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Snackbar"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/button_navigation_view"/>
+    <Button
+        android:id="@+id/button_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="TabLayout"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/button_snack_bar"/>
+
+    <Button
+        android:id="@+id/button_text_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="TextInputLayout"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/button_tab_layout"/>
+
+</android.support.constraint.ConstraintLayout>
