@@ -23,7 +23,7 @@ dependencies {
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.android.support:recyclerview-v7:${rootProject.ext.supportLibVersion}"
 
-    implementation 'com.trello:rxlifecycle:1.0'
-    implementation 'com.trello:rxlifecycle-components:1.0'
+//    implementation 'com.trello:rxlifecycle:1.0'
+//    implementation 'com.trello:rxlifecycle-components:1.0'
     implementation 'com.github.yyued:SVGAPlayer-Android:2.0.0'
 }

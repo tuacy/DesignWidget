@@ -8,14 +8,13 @@ import android.content.Context;
 import android.os.Bundle;
 
 import com.pilot.common.log.PilotLog;
-import com.trello.rxlifecycle.components.RxFragment;
 
 import java.lang.reflect.Field;
 
 /**
  * used in pager + fragment
  */
-public abstract class BaseLazyFragment extends RxFragment {
+public abstract class BaseLazyFragment extends Fragment {
 
 	protected Context mContext         = null;
 	private   boolean isFirstResume    = true;

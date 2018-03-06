@@ -12,9 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.pilot.common.log.PilotLog;
-import com.trello.rxlifecycle.components.RxFragment;
 
-public abstract class BaseFragment extends RxFragment {
+public abstract class BaseFragment extends Fragment {
 
 	protected Context mContext;
 

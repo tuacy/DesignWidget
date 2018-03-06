@@ -11,7 +11,7 @@ import com.tuacy.designwidget.module.CollapsingToolbarLayout.CollapsingToolbarAc
 import com.tuacy.designwidget.module.CoordinatorLayout.CoordinatorActivity;
 import com.tuacy.designwidget.module.FloatingActionButton.FloatingActionButtonActivity;
 import com.tuacy.designwidget.module.NavigationView.NavigationViewActivity;
-import com.tuacy.designwidget.module.Snackbar.SnackbarActivity;
+import com.tuacy.designwidget.module.Snackbar.SnackBarActivity;
 import com.tuacy.designwidget.module.TabLayout.TabActivity;
 import com.tuacy.designwidget.module.TextInputLayout.TextInputActivity;
 
@@ -77,7 +77,7 @@ public class MainActivity extends BaseMobileActivity {
 		findViewById(R.id.button_snack_bar).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				SnackbarActivity.startup(mContext);
+				SnackBarActivity.startup(mContext);
 			}
 		});
 

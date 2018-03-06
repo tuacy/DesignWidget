@@ -27,7 +27,7 @@
 
         <activity android:name=".module.NavigationView.NavigationViewActivity" />
 
-        <activity android:name=".module.Snackbar.SnackbarActivity" />
+        <activity android:name=".module.Snackbar.SnackBarActivity" />
 
         <activity android:name=".module.TabLayout.TabActivity" />
 
