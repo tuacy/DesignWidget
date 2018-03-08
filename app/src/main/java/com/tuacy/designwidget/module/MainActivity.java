@@ -6,10 +6,7 @@ import android.view.View;
 
 import com.tuacy.designwidget.R;
 import com.tuacy.designwidget.app.BaseMobileActivity;
-import com.tuacy.designwidget.module.AppBarLayout.AppBarActivity;
-import com.tuacy.designwidget.module.CollapsingToolbarLayout.CollapsingToolbarActivity;
 import com.tuacy.designwidget.module.CoordinatorLayout.CoordinatorActivity;
-import com.tuacy.designwidget.module.FloatingActionButton.FloatingActionButtonActivity;
 import com.tuacy.designwidget.module.NavigationView.NavigationViewActivity;
 import com.tuacy.designwidget.module.Snackbar.SnackBarActivity;
 import com.tuacy.designwidget.module.TabLayout.TabActivity;
@@ -39,31 +36,11 @@ public class MainActivity extends BaseMobileActivity {
 				onBackPressed();
 			}
 		});
-		findViewById(R.id.button_app_bar_layout).setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				AppBarActivity.startup(mContext);
-			}
-		});
-
-		findViewById(R.id.button_collapsing_tool_bar_layout).setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				CollapsingToolbarActivity.startup(mContext);
-			}
-		});
 
 		findViewById(R.id.button_coordinator_layout).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				CoordinatorActivity.startup(mContext);
-			}
-		});
-
-		findViewById(R.id.button_floating_action_button).setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				FloatingActionButtonActivity.startup(mContext);
 			}
 		});
 

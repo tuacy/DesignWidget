@@ -14,27 +14,6 @@
         app:navigationIcon="@drawable/ic_arrow_back_white_24dp"/>
 
     <Button
-        android:id="@+id/button_app_bar_layout"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:text="AppBarLayout"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/tool_bar"/>
-
-    <Button
-        android:id="@+id/button_collapsing_tool_bar_layout"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:text="CollapsingToolbarLayout"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/button_app_bar_layout"/>
-
-    <Button
         android:id="@+id/button_coordinator_layout"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -42,17 +21,7 @@
         android:layout_marginRight="8dp"
         android:text="CoordinatorLayout"
         android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/button_collapsing_tool_bar_layout"/>
-
-    <Button
-        android:id="@+id/button_floating_action_button"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:text="FloatingActionButton"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/button_coordinator_layout"/>
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar"/>
 
     <Button
         android:id="@+id/button_navigation_view"
@@ -62,7 +31,7 @@
         android:layout_marginRight="8dp"
         android:text="NavigationView"
         android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/button_floating_action_button"/>
+        app:layout_constraintTop_toBottomOf="@+id/button_coordinator_layout"/>
     <Button
         android:id="@+id/button_snack_bar"
         android:layout_width="match_parent"

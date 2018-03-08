@@ -17,13 +17,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".module.AppBarLayout.AppBarActivity" />
-
-        <activity android:name=".module.CollapsingToolbarLayout.CollapsingToolbarActivity" />
-
         <activity android:name=".module.CoordinatorLayout.CoordinatorActivity" />
-
-        <activity android:name=".module.FloatingActionButton.FloatingActionButtonActivity" />
 
         <activity android:name=".module.NavigationView.NavigationViewActivity" />
 

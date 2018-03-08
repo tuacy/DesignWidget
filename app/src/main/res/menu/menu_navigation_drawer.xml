@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_item_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="照相" />
+        <item
+            android:id="@+id/menu_item_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="图片" />
+        <item
+            android:id="@+id/menu_item_camera_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="视频" />
+        <item
+            android:id="@+id/menu_item_camera_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="工具" />
+    </group>
+
+    <item android:title="设置">
+        <menu>
+            <item
+                android:id="@+id/menu_item_camera_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/menu_item_camera_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="发送" />
+        </menu>
+    </item>
+</menu>
