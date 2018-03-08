@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#2293e9</color>
+    <color name="colorPrimaryDark">#0097a7</color>
+    <color name="colorAccent">#3F85D0</color>
+    <color name="colorRipple">#62B2B2B2</color>
+    <color name="colorNavigationBar">#2293e9</color>
+    <color name="colorDivider">#ebebeb</color>
+    <color name="colorDividerSecond">#99e3ff</color>
+    <color name="colorPrimaryText">#7c7c7c</color>
+    <color name="colorSecondaryText">#ffffff</color>
+    <color name="colorActivity">#f4f4f4</color>
+    <color name="colorHint">#777777</color>
+    <color name="colorDisable">#afaca6</color>
+    <color name="colorSegment">#f5f5f5</color>
+    <color name="hightLine">#b4b8b9</color>
+    <color name="statusColor">@android:color/transparent</color>
+
+    <color name="colorThirdText">#00BA6A</color>
+    <color name="colorFourText">#f7d548</color>
+    <color name="colorRise">#FF7F00</color>
+    <color name="colorDecline">#00b86a</color>
+    <color name="colorOdd">#ffffff</color>
+    <color name="colorEven">#f9f9f9</color>
+    <color name="colorEven1">#fafafc</color>
+    <color name="colorItemSelect">#f3faff</color>
+
+    <color name="colorItemTitle">#2293e9</color>
+
+    <color name="bg_color">#f4f4f4</color>
+    <color name="divider_color">#eeeeee</color>
+    <color name="text_blue">#009bff</color>
+    <color name="text_normal">#23c934</color>
+    <color name="text_exception">#fcac4e</color>
+    <color name="text_light_black">#606060</color>
+
+    <color name="alarm_item_content_edit_color">#f0f0f0</color>
+    <color name="alarm_item_choose_layout_uncheced_color">#f8f8f8</color>
+    <!-- date picker -->
+    <color name="date_picker_transparency">#40000000</color>
+    <color name="date_picker_select_button_normal_color">#15B078</color>
+    <color name="date_picker_select_button_selected_color">#0E9E6A</color>
+    <color name="date_picker_text_selected_color">#0000bf</color>
+    <color name="date_picker_wheel_text_color_normal">#FFAEAEAE</color>
+
+    <!-- line chart -->
+    <color name="mark_view_background">#b3262626</color>
+    <color name="mark_view_text">#ff0000</color>
+    <color name="current_curve_color">#FF8D58</color>
+    <color name="mom_curve_color">#54D1FE</color>
+    <color name="curve_line_color_1">#1b9cde</color>
+    <color name="curve_line_color_2">#5fe0ab</color>
+    <color name="curve_line_color_3">#f9c953</color>
+    <color name="curve_line_color_4">#24d7da</color>
+    <color name="curve_line_color_5">#8890db</color>
+    <color name="curve_line_color_6">#626c91</color>
+    <color name="curve_line_color_7">#16c2c2</color>
+    <color name="curve_line_color_8">#06d995</color>
+    <color name="curve_line_color_9">#f8d347</color>
+    <color name="curve_line_color_10">#424f63</color>
+    <color name="curve_line_color_11">#a9d96c</color>
+    <color name="curve_line_color_12">#f98200</color>
+    <color name="curve_line_color_13">#f7d300</color>
+    <color name="curve_line_color_yellow">#ffcc00</color>
+    <color name="curve_line_color_red">#ff3333</color>
+    <color name="curve_line_color_green">#33ff66</color>
+
+    <!-- pie chart color -->
+    <color name="pie_chart_color_0">#1599ff</color>
+    <color name="pie_chart_color_1">#4ccfca</color>
+    <color name="pie_chart_color_2">#2abf7d</color>
+    <color name="pie_chart_color_3">#fd993c</color>
+    <color name="pie_chart_color_4">#ef8f8f</color>
+    <color name="pie_chart_color_5">#adde5d</color>
+    <color name="pie_chart_color_6">#5fbff6</color>
+    <color name="pie_chart_color_7">#3fc568</color>
+    <color name="pie_chart_color_8">#94de5d</color>
+    <color name="pie_chart_color_9">#c6de5d</color>
+    <color name="pie_chart_color_10">#c6de5e</color>
+    <color name="pie_chart_color_11">#7cde5c</color>
+
+    <color name="curve_line_fill_color">#516a9dc7</color>
+
 </resources>

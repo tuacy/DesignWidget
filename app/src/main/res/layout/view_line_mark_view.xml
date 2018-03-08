@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/mark_view_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_tiny">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_view_line_mark_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/text_size_mini" />
+
+        <TextView
+            android:id="@+id/text_view_line_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_tiny"
+            android:layout_marginStart="@dimen/margin_tiny"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/text_size_mini" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_line_chart_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>

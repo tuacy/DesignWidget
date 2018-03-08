@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Support Design</string>
+    <string name="empty">无数据</string>
 </resources>

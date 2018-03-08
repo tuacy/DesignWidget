@@ -4,7 +4,7 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
     </style>
@@ -25,15 +25,33 @@
 
     <style name="AppTheme.TabStyle" parent="Widget.Design.TabLayout">
         <item name="tabTextAppearance">@style/AppTheme.TextStyle</item>
-        <item name="tabTextColor">#7c7c7c</item>
-        <item name="tabSelectedTextColor">#FF4081</item>
-        <item name="tabIndicatorColor">#FF4081</item>
-        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabTextColor">#ffffff</item>
+        <item name="tabSelectedTextColor">#ff4046</item>
+        <item name="tabIndicatorColor">#ff4046</item>
+        <item name="tabIndicatorHeight">2dp</item>
     </style>
 
     <style name="AppTheme.TextStyle" parent="TextAppearance.Design.Tab">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="textAllCaps">false</item>
     </style>
+
+    <style name="MainBottomTabButton">
+        <item name="android:paddingTop">@dimen/padding_tiny</item>
+        <item name="android:paddingBottom">@dimen/padding_tiny</item>
+        <item name="android:textSize">@dimen/text_size_caption</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/color_selector_tab_button</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 纲要 -->
+    <dimen name="text_size_flag">28sp</dimen>
+    <dimen name="text_size_headline">24sp</dimen>
+    <!-- ActionBar标题 -->
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_small_title">18sp</dimen>
+    <!-- 次要标题 -->
+    <dimen name="text_size_subhead">16sp</dimen>
+    <!-- list view item -->
+    <dimen name="text_size_list_view">16sp</dimen>
+
+    <dimen name="text_size_normal">16sp</dimen>
+    <!-- 菜单 -->
+    <dimen name="text_size_menu">14sp</dimen>
+    <!-- 正文 -->
+    <dimen name="text_size_body">14sp</dimen>
+    <!-- 按钮 -->
+    <dimen name="text_size_button">14sp</dimen>
+    <!-- 小字提示 -->
+    <dimen name="text_size_caption">12sp</dimen>
+    <!-- 超小字提示 -->
+    <dimen name="text_size_mini">10sp</dimen>
+
+    <!-- margin -->
+    <dimen name="margin_little">2dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_min">6dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_mini">12dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_normal">24dp</dimen>
+    <dimen name="margin_big">32dp</dimen>
+    <dimen name="margin_super">64dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- padding -->
+    <dimen name="padding_tiny">4dp</dimen>
+    <dimen name="padding_6dp">6dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_mini">12dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+
+    <!-- elevation -->
+    <dimen name="elevation_dialog">24dp</dimen>
+    <dimen name="elevation_picker">24dp</dimen>
+    <dimen name="elevation_nav_drawer">16dp</dimen>
+    <dimen name="elevation_bottom_sheet">16dp</dimen>
+    <dimen name="elevation_float_action_btn_press">12dp</dimen>
+    <dimen name="elevation_popup">10dp</dimen>
+    <dimen name="elevation_sub_menu">9dp</dimen>
+    <dimen name="elevation_menu">8dp</dimen>
+    <dimen name="elevation_card">8dp</dimen>
+    <dimen name="elevation_raised_btn">8dp</dimen>
+    <dimen name="elevation_float_action_btn">6dp</dimen>
+    <dimen name="elevation_snack_bar">6dp</dimen>
+    <dimen name="elevation_app_bar">4dp</dimen>
+    <dimen name="elevation_search_bar">3dp</dimen>
+    <dimen name="elevation_switch">1dp</dimen>
+
+    <!-- card corner radius -->
+    <dimen name="card_corner_radius_tiny">2dp</dimen>
+    <dimen name="card_corner_radius_small">3dp</dimen>
+    <dimen name="card_corner_radius_normal">8dp</dimen>
+
+    <!-- element space -->
+    <dimen name="element_space_tiny">4dp</dimen>
+    <dimen name="element_space_small">8dp</dimen>
+    <dimen name="element_space_medium">16dp</dimen>
+    <dimen name="element_space_normal">24dp</dimen>
+
+    <!-- space -->
+    <dimen name="space_tiny">4dp</dimen>
+
+    <!-- divide -->
+    <dimen name="divide_height">1dp</dimen>
+    <dimen name="divide_height_2">2dp</dimen>
+</resources>
