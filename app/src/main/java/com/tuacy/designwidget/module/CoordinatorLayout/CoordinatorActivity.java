@@ -9,6 +9,7 @@ import android.widget.RadioButton;
 import com.tuacy.designwidget.R;
 import com.tuacy.designwidget.app.BaseMobileActivity;
 import com.tuacy.designwidget.module.CoordinatorLayout.home.FragmentHome;
+import com.tuacy.designwidget.module.CoordinatorLayout.me.FragmentMe;
 import com.tuacy.designwidget.module.CoordinatorLayout.table.FragmentTable;
 
 public class CoordinatorActivity extends BaseMobileActivity {

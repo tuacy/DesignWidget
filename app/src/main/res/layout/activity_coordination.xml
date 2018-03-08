@@ -15,7 +15,8 @@
         android:id="@+id/bottom_navigation_bar"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
         <!-- 首页 -->
         <RadioButton
             style="@style/MainBottomTabButton"

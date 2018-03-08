@@ -1,5 +1,6 @@
-package com.tuacy.designwidget.module.CoordinatorLayout;
+package com.tuacy.designwidget.module.CoordinatorLayout.me;
 
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.tuacy.designwidget.R;
@@ -14,12 +15,11 @@ public class FragmentMe extends BaseMobileFragment {
 
 	@Override
 	protected int getLayoutId() {
-		return R.layout.fragment_home;
+		return R.layout.fragment_me;
 	}
 
 	@Override
 	protected void initViews(View root) {
-
 	}
 
 	@Override
