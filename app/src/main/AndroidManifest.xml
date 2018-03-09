@@ -27,6 +27,8 @@
 
         <activity android:name=".module.TextInputLayout.TextInputActivity" />
 
+        <activity android:name=".module.BottomSheet.BottomSheetActivity"/>
+
     </application>
 
 </manifest>

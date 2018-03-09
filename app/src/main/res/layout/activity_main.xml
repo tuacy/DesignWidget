@@ -61,4 +61,14 @@
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@+id/button_tab_layout"/>
 
+    <Button
+        android:id="@+id/button_bottom_sheet_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="BottomSheet"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/button_text_input_layout"/>
+
 </android.support.constraint.ConstraintLayout>

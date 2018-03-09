@@ -25,7 +25,7 @@
 
     <style name="AppTheme.TabStyle" parent="Widget.Design.TabLayout">
         <item name="tabTextAppearance">@style/AppTheme.TextStyle</item>
-        <item name="tabTextColor">#ffffff</item>
+        <item name="tabTextColor">#7c7c7c</item>
         <item name="tabSelectedTextColor">#ff4046</item>
         <item name="tabIndicatorColor">#ff4046</item>
         <item name="tabIndicatorHeight">2dp</item>
@@ -53,5 +53,19 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppBottomSheetDialog">
+        <item name="behavior_peekHeight">200dp</item>
+    </style>
+
+    <style name="Theme.Design.BottomSheetDialog2" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+        <item name="bottomSheetStyle">@style/TestBottom</item>
+    </style>
+
+    <style name="TestBottom" parent="Widget.Design.BottomSheet.Modal">
+        <item name="behavior_peekHeight">250dp</item>
+    </style>
 
 </resources>

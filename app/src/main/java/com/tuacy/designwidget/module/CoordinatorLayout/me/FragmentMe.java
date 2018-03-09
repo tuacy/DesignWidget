@@ -1,6 +1,5 @@
 package com.tuacy.designwidget.module.CoordinatorLayout.me;
 
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.tuacy.designwidget.R;

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            style="@style/AppTheme.Toolbar"
+            android:id="@+id/tool_bar"
+            app:title="Bottom Sheet"
+            app:navigationIcon="@drawable/ic_arrow_back_white_24dp" />
+
+        <Button
+            android:id="@+id/button_bottom_sheet_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bottom Sheet Layout 显示/隐藏"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button_bottom_sheet_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bottom Sheet Dialog 显示/隐藏"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/design_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="250dp"
+        app:behavior_skipCollapsed="false"
+        app:elevation="4dp"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_sheet_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@android:drawable/ic_dialog_email"
+        app:layout_anchor="@id/design_bottom_sheet"
+        app:layout_anchorGravity="end|top|right" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -6,6 +6,7 @@ import android.view.View;
 
 import com.tuacy.designwidget.R;
 import com.tuacy.designwidget.app.BaseMobileActivity;
+import com.tuacy.designwidget.module.BottomSheet.BottomSheetActivity;
 import com.tuacy.designwidget.module.CoordinatorLayout.CoordinatorActivity;
 import com.tuacy.designwidget.module.NavigationView.NavigationViewActivity;
 import com.tuacy.designwidget.module.Snackbar.SnackBarActivity;
@@ -69,6 +70,13 @@ public class MainActivity extends BaseMobileActivity {
 			@Override
 			public void onClick(View v) {
 				TextInputActivity.startup(mContext);
+			}
+		});
+
+		findViewById(R.id.button_bottom_sheet_layout).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				BottomSheetActivity.startup(mContext);
 			}
 		});
 	}
