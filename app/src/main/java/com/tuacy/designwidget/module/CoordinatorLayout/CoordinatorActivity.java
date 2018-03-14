@@ -3,8 +3,7 @@ package com.tuacy.designwidget.module.CoordinatorLayout;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 import com.tuacy.designwidget.R;
 import com.tuacy.designwidget.app.BaseMobileActivity;
@@ -23,10 +22,7 @@ public class CoordinatorActivity extends BaseMobileActivity {
 	private static final int ATTENTION = 2;
 	private static final int ME        = 3;
 
-	private RadioButton       mRadioHome;
-	private RadioButton       mRadioTable;
-	private RadioButton       mRadioAttention;
-	private RadioButton       mRadioMe;
+	private RadioGroup        mRadioGroup;
 	private int               mCurrentTab;
 	private FragmentHome      mFragmentHome;
 	private FragmentTable     mFragmentTable;
@@ -44,35 +40,27 @@ public class CoordinatorActivity extends BaseMobileActivity {
 	}
 
 	private void initView() {
-		mRadioHome = findViewById(R.id.radio_tab_home_page);
-		mRadioTable = findViewById(R.id.radio_tab_table);
-		mRadioAttention = findViewById(R.id.radio_tab_attention);
-		mRadioMe = findViewById(R.id.radio_tab_me);
+		mRadioGroup = findViewById(R.id.group_bottom_navigation_bar);
 	}
 
 	private void initEvent() {
-		mRadioHome.setOnClickListener(new View.OnClickListener() {
+		mRadioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 			@Override
-			public void onClick(View v) {
-				switchTab(HOME);
-			}
-		});
-		mRadioTable.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				switchTab(TABLE);
-			}
-		});
-		mRadioAttention.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				switchTab(ATTENTION);
-			}
-		});
-		mRadioMe.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				switchTab(ME);
+			public void onCheckedChanged(RadioGroup group, int checkedId) {
+				switch (checkedId) {
+					case R.id.radio_tab_home_page:
+						switchTab(HOME);
+						break;
+					case R.id.radio_tab_table:
+						switchTab(TABLE);
+						break;
+					case R.id.radio_tab_attention:
+						switchTab(ATTENTION);
+						break;
+					case R.id.radio_tab_me:
+						switchTab(ME);
+						break;
+				}
 			}
 		});
 	}
@@ -90,31 +78,27 @@ public class CoordinatorActivity extends BaseMobileActivity {
 		if (mCurrentTab == tab) {
 			return;
 		}
-		mRadioHome.setChecked(false);
-		mRadioTable.setChecked(false);
-		mRadioAttention.setChecked(false);
-		mRadioMe.setChecked(false);
 		switch (tab) {
 			case HOME:
-				mRadioHome.setChecked(true);
+				mRadioGroup.check(R.id.radio_tab_home_page);
 				if (mFragmentHome != null) {
 					switchFragment(R.id.layout_main_fragment_content, mFragmentHome);
 				}
 				break;
 			case TABLE:
-				mRadioTable.setChecked(true);
+				mRadioGroup.check(R.id.radio_tab_table);
 				if (mFragmentTable != null) {
 					switchFragment(R.id.layout_main_fragment_content, mFragmentTable);
 				}
 				break;
 			case ATTENTION:
-				mRadioAttention.setChecked(true);
+				mRadioGroup.check(R.id.radio_tab_attention);
 				if (mFragmentAttention != null) {
 					switchFragment(R.id.layout_main_fragment_content, mFragmentAttention);
 				}
 				break;
 			case ME:
-				mRadioMe.setChecked(true);
+				mRadioGroup.check(R.id.radio_tab_me);
 				if (mFragmentMe != null) {
 					switchFragment(R.id.layout_main_fragment_content, mFragmentMe);
 				}

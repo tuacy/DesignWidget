@@ -57,5 +57,5 @@
         android:layout_marginEnd="8dp"
         android:src="@android:drawable/ic_dialog_email"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom|right" />
+        app:layout_anchorGravity="end|bottom|right"/>
 </android.support.design.widget.CoordinatorLayout>
