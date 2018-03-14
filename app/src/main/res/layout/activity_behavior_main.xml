@@ -23,4 +23,14 @@
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@+id/tool_bar"/>
 
+    <Button
+        android:id="@+id/button_behavior_fab_bottom_in_out"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="FloatingActionButton 从bottom进入从bottom推出"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/button_behavior_bottom_sheet"/>
+
 </android.support.constraint.ConstraintLayout>

@@ -33,6 +33,8 @@
 
         <activity android:name=".module.behavior.bottomSheet.BottomSheetActivity"/>
 
+        <activity android:name=".module.behavior.fab.FabBottomInOutActivity"/>
+
     </application>
 
 </manifest>

@@ -9,6 +9,7 @@ import android.view.View;
 import com.tuacy.designwidget.R;
 import com.tuacy.designwidget.app.BaseMobileActivity;
 import com.tuacy.designwidget.module.behavior.bottomSheet.BottomSheetActivity;
+import com.tuacy.designwidget.module.behavior.fab.FabBottomInOutActivity;
 
 public class BehaviorMainActivity extends BaseMobileActivity {
 
@@ -43,6 +44,13 @@ public class BehaviorMainActivity extends BaseMobileActivity {
 			@Override
 			public void onClick(View v) {
 				BottomSheetActivity.startup(mContext);
+			}
+		});
+
+		findView(R.id.button_behavior_fab_bottom_in_out).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				FabBottomInOutActivity.startup(mContext);
 			}
 		});
 
