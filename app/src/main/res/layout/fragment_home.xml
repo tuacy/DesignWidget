@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|enterAlways|snap"
+            app:layout_scrollFlags="scroll"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
             <TextView
@@ -34,7 +34,6 @@
             android:id="@+id/tab_layout_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             style="@style/AppTheme.TabStyle"
             app:tabMode="scrollable"
             app:tabGravity="fill" />
