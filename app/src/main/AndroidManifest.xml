@@ -17,17 +17,21 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".module.CoordinatorLayout.CoordinatorActivity" />
+        <activity android:name=".module.behavior.BehaviorMainActivity" />
 
-        <activity android:name=".module.NavigationView.NavigationViewActivity" />
+        <activity android:name=".module.design.DesignMainActivity" />
 
-        <activity android:name=".module.Snackbar.SnackBarActivity" />
+        <activity android:name=".module.design.CoordinatorLayout.CoordinatorActivity" />
 
-        <activity android:name=".module.TabLayout.TabActivity" />
+        <activity android:name=".module.design.NavigationView.NavigationViewActivity" />
 
-        <activity android:name=".module.TextInputLayout.TextInputActivity" />
+        <activity android:name=".module.design.Snackbar.SnackBarActivity" />
 
-        <activity android:name=".module.BottomSheet.BottomSheetActivity"/>
+        <activity android:name=".module.design.TabLayout.TabActivity" />
+
+        <activity android:name=".module.design.TextInputLayout.TextInputActivity" />
+
+        <activity android:name=".module.behavior.bottomSheet.BottomSheetActivity"/>
 
     </application>
 

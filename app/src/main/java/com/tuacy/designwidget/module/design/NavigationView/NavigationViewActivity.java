@@ -1,4 +1,4 @@
-package com.tuacy.designwidget.module.NavigationView;
+package com.tuacy.designwidget.module.design.NavigationView;
 
 import android.content.Context;
 import android.content.Intent;

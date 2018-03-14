@@ -1,4 +1,4 @@
-package com.tuacy.designwidget.module.CoordinatorLayout.table;
+package com.tuacy.designwidget.module.design.CoordinatorLayout.table;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;

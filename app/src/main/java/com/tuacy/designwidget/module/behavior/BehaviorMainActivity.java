@@ -1,22 +1,27 @@
-package com.tuacy.designwidget.module;
+package com.tuacy.designwidget.module.behavior;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.tuacy.designwidget.R;
 import com.tuacy.designwidget.app.BaseMobileActivity;
-import com.tuacy.designwidget.module.behavior.BehaviorMainActivity;
-import com.tuacy.designwidget.module.design.DesignMainActivity;
+import com.tuacy.designwidget.module.behavior.bottomSheet.BottomSheetActivity;
 
-public class MainActivity extends BaseMobileActivity {
+public class BehaviorMainActivity extends BaseMobileActivity {
+
+	public static void startup(Context context) {
+		context.startActivity(new Intent(context, BehaviorMainActivity.class));
+	}
 
 	private Toolbar mToolbar;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_behavior_main);
 		initView();
 		initEvent();
 		initData();
@@ -34,17 +39,10 @@ public class MainActivity extends BaseMobileActivity {
 			}
 		});
 
-		findViewById(R.id.button_design).setOnClickListener(new View.OnClickListener() {
+		findView(R.id.button_behavior_bottom_sheet).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				DesignMainActivity.startup(mContext);
-			}
-		});
-
-		findViewById(R.id.button_behavior).setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				BehaviorMainActivity.startup(mContext);
+				BottomSheetActivity.startup(mContext);
 			}
 		});
 

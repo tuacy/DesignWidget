@@ -1,4 +1,4 @@
-package com.tuacy.designwidget.module.TabLayout;
+package com.tuacy.designwidget.module.design.TabLayout;
 
 import android.app.Activity;
 import android.os.Bundle;

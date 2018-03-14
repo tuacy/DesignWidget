@@ -1,4 +1,4 @@
-package com.tuacy.designwidget.module.TextInputLayout;
+package com.tuacy.designwidget.module.design.TextInputLayout;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,12 +6,8 @@ import android.os.Bundle;
 import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.widget.Toolbar;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 import com.tuacy.designwidget.R;
 import com.tuacy.designwidget.app.BaseMobileActivity;

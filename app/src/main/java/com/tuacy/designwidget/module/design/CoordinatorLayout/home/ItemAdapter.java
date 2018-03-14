@@ -1,4 +1,4 @@
-package com.tuacy.designwidget.module.BottomSheet;
+package com.tuacy.designwidget.module.design.CoordinatorLayout.home;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,31 +8,31 @@ import android.widget.TextView;
 
 import com.tuacy.designwidget.R;
 
-import java.util.List;
 
+public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemHolder> {
 
-public class BottomSheetAdapter extends RecyclerView.Adapter<BottomSheetAdapter.ItemHolder> {
+	private int    mCount;
+	private String mTitle;
 
-	private List<String> mDataList;
-
-	BottomSheetAdapter(List<String> dataList) {
-		mDataList = dataList;
+	ItemAdapter(int count, String title) {
+		mCount = count;
+		mTitle = title;
 	}
 
 	@Override
 	public ItemHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-		return new ItemHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_sheet, parent, false));
+		return new ItemHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_text_content, parent, false));
 	}
 
 	@Override
 	public void onBindViewHolder(ItemHolder holder, int position) {
-		holder.mTextItem.setText(mDataList.get(position));
-		holder.itemView.setBackgroundResource(position % 2 == 0 ? R.color.colorEven : R.color.colorOdd);
+		holder.mTextItem.setText(mTitle + " " + position);
+		holder.mTextItem.setBackgroundResource(position % 2 == 0 ? R.color.colorOdd : R.color.colorEven);
 	}
 
 	@Override
 	public int getItemCount() {
-		return mDataList == null ? 0 : mDataList.size();
+		return mCount;
 	}
 
 	static class ItemHolder extends RecyclerView.ViewHolder {

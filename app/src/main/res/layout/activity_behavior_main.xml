@@ -14,23 +14,13 @@
         app:navigationIcon="@drawable/ic_arrow_back_white_24dp"/>
 
     <Button
-        android:id="@+id/button_design"
+        android:id="@+id/button_behavior_bottom_sheet"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:text="Design Support Library 控件的使用"
+        android:text="CoordinatorLayout"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@+id/tool_bar"/>
-
-    <Button
-        android:id="@+id/button_behavior"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:text="Behavior 使用"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/button_design"/>
 
 </android.support.constraint.ConstraintLayout>

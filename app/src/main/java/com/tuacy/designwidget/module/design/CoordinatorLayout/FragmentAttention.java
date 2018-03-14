@@ -1,4 +1,4 @@
-package com.tuacy.designwidget.module.CoordinatorLayout.me;
+package com.tuacy.designwidget.module.design.CoordinatorLayout;
 
 import android.view.View;
 
@@ -6,19 +6,20 @@ import com.tuacy.designwidget.R;
 import com.tuacy.designwidget.app.BaseMobileFragment;
 
 
-public class FragmentMe extends BaseMobileFragment {
+public class FragmentAttention extends BaseMobileFragment {
 
-	public static FragmentMe instance() {
-		return new FragmentMe();
+	public static FragmentAttention instance() {
+		return new FragmentAttention();
 	}
 
 	@Override
 	protected int getLayoutId() {
-		return R.layout.fragment_me;
+		return R.layout.fragment_home;
 	}
 
 	@Override
 	protected void initViews(View root) {
+
 	}
 
 	@Override

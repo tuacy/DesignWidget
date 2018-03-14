@@ -1,4 +1,4 @@
-package com.tuacy.designwidget.module.BottomSheet;
+package com.tuacy.designwidget.module.behavior.bottomSheet;
 
 import android.content.Context;
 import android.content.Intent;
@@ -33,7 +33,7 @@ public class BottomSheetActivity extends BaseMobileActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_bottom_sheet);
+		setContentView(R.layout.activity_behavior_bottom_sheet);
 		initView();
 		initEvent();
 		initData();

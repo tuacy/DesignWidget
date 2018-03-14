@@ -1,4 +1,4 @@
-package com.tuacy.designwidget.module.CoordinatorLayout.home;
+package com.tuacy.designwidget.module.design.CoordinatorLayout.home;
 
 
 import android.app.Activity;

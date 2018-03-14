@@ -1,4 +1,4 @@
-package com.tuacy.designwidget.module.Snackbar;
+package com.tuacy.designwidget.module.design.Snackbar;
 
 
 import android.support.annotation.ColorInt;

@@ -1,4 +1,4 @@
-package com.tuacy.designwidget.module.CoordinatorLayout;
+package com.tuacy.designwidget.module.design.CoordinatorLayout;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,9 +7,9 @@ import android.widget.RadioGroup;
 
 import com.tuacy.designwidget.R;
 import com.tuacy.designwidget.app.BaseMobileActivity;
-import com.tuacy.designwidget.module.CoordinatorLayout.home.FragmentHome;
-import com.tuacy.designwidget.module.CoordinatorLayout.me.FragmentMe;
-import com.tuacy.designwidget.module.CoordinatorLayout.table.FragmentTable;
+import com.tuacy.designwidget.module.design.CoordinatorLayout.home.FragmentHome;
+import com.tuacy.designwidget.module.design.CoordinatorLayout.me.FragmentMe;
+import com.tuacy.designwidget.module.design.CoordinatorLayout.table.FragmentTable;
 
 public class CoordinatorActivity extends BaseMobileActivity {
 
