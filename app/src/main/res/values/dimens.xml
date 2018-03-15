@@ -76,4 +76,6 @@
     <!-- divide -->
     <dimen name="divide_height">1dp</dimen>
     <dimen name="divide_height_2">2dp</dimen>
+
+    <dimen name="header_height">200dp</dimen>
 </resources>

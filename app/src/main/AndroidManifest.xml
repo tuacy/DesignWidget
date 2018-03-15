@@ -35,6 +35,8 @@
 
         <activity android:name=".module.behavior.fab.FabBottomInOutActivity"/>
 
+        <activity android:name=".module.behavior.headercover.HeaderCoverActivity"/>
+
     </application>
 
 </manifest>

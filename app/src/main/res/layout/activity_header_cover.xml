@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_gaoan"
+        android:contentDescription="@string/app_name" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_item_display"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        app:layout_behavior="com.tuacy.designwidget.module.behavior.headercover.HeaderCoverBehavior">
+    </android.support.v7.widget.RecyclerView>
+</android.support.design.widget.CoordinatorLayout>

@@ -10,6 +10,7 @@ import com.tuacy.designwidget.R;
 import com.tuacy.designwidget.app.BaseMobileActivity;
 import com.tuacy.designwidget.module.behavior.bottomSheet.BottomSheetActivity;
 import com.tuacy.designwidget.module.behavior.fab.FabBottomInOutActivity;
+import com.tuacy.designwidget.module.behavior.headercover.HeaderCoverActivity;
 
 public class BehaviorMainActivity extends BaseMobileActivity {
 
@@ -54,6 +55,12 @@ public class BehaviorMainActivity extends BaseMobileActivity {
 			}
 		});
 
+		findView(R.id.button_behavior_header_cover).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				HeaderCoverActivity.startup(mContext);
+			}
+		});
 	}
 
 	private void initData() {
